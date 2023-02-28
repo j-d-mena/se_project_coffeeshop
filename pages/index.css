@@ -85,7 +85,7 @@
   flex-direction: row-reverse;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   margin: 0;
   align-items: center;
