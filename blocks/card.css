@@ -10,6 +10,11 @@
   line-height: 30px;
 }
 
+.card__unordered-list {
+  margin: 0;
+  padding: 0;
+}
+
 .card__list-item {
   margin-bottom: 16px;
   display: flex;

@@ -31,4 +31,5 @@
   flex-wrap: wrap;
   column-gap: 100px;
   row-gap: 100px;
+  justify-content: center;
 }
