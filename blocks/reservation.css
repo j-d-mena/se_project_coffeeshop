@@ -6,11 +6,12 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding: 100px 0 120px;
+  align-items: center;
 }
 
 .reservation__title {
-  padding-top: 100px;
-  margin: 0 auto 0 auto;
+  margin: 0 0 80px;
   font-family: "Inter", Arial, san-serif;
   font-weight: 500;
   font-size: 44px;
@@ -18,5 +19,6 @@
 }
 
 .reservation__form {
-  margin: 80px auto 120px;
+  width: 100%;
+  max-width: 385px;
 }

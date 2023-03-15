@@ -24,7 +24,12 @@
   line-height: 20px;
 }
 
+.card__list-item:last-child {
+  margin: 0;
+}
+
 .card__list-divider {
+  margin: 0 10px;
   flex-grow: 1;
   border-bottom: solid;
 }

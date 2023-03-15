@@ -6,6 +6,7 @@
 }
 
 .nav__links {
+  padding: 0;
   display: flex;
   margin: 0;
   align-items: center;
@@ -16,6 +17,7 @@
 }
 
 .nav__link {
+  text-decoration: none;
   color: #000000;
   transition: color 0.2s ease-in;
 }

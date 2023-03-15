@@ -58,6 +58,8 @@
 }
 
 .about__circle_animation_blurred {
+  /* this element has both original and modifier classes assigned in HTML meaning its getting styles from both CSS rules. in order to avoid code duplication, remove all propertis that are present in the original element.
+
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
@@ -65,5 +67,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
+
+  */
   animation: pulsate 1.3s ease-in-out infinite;
 }
